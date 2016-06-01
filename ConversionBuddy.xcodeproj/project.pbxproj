@@ -1,0 +1,325 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		43107EAE1CFF1910000541CB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 43107EAD1CFF1910000541CB /* main.m */; };
+		43107EB11CFF1910000541CB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 43107EB01CFF1910000541CB /* AppDelegate.m */; };
+		43107EB41CFF1910000541CB /* TemperatureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 43107EB31CFF1910000541CB /* TemperatureViewController.m */; };
+		43107EB71CFF1910000541CB /* CurrencyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 43107EB61CFF1910000541CB /* CurrencyViewController.m */; };
+		43107EBA1CFF1910000541CB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 43107EB81CFF1910000541CB /* Main.storyboard */; };
+		43107EBC1CFF1910000541CB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 43107EBB1CFF1910000541CB /* Assets.xcassets */; };
+		43107EBF1CFF1910000541CB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 43107EBD1CFF1910000541CB /* LaunchScreen.storyboard */; };
+		43107EC81CFF2040000541CB /* SpeedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 43107EC71CFF2040000541CB /* SpeedViewController.m */; };
+		43107ECB1CFF2067000541CB /* TimeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 43107ECA1CFF2067000541CB /* TimeViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		43107EA91CFF1910000541CB /* ConversionBuddy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ConversionBuddy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		43107EAD1CFF1910000541CB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		43107EAF1CFF1910000541CB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		43107EB01CFF1910000541CB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		43107EB21CFF1910000541CB /* TemperatureViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TemperatureViewController.h; sourceTree = "<group>"; };
+		43107EB31CFF1910000541CB /* TemperatureViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TemperatureViewController.m; sourceTree = "<group>"; };
+		43107EB51CFF1910000541CB /* CurrencyViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CurrencyViewController.h; sourceTree = "<group>"; };
+		43107EB61CFF1910000541CB /* CurrencyViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CurrencyViewController.m; sourceTree = "<group>"; };
+		43107EB91CFF1910000541CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		43107EBB1CFF1910000541CB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		43107EBE1CFF1910000541CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		43107EC01CFF1910000541CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		43107EC61CFF2040000541CB /* SpeedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpeedViewController.h; sourceTree = "<group>"; };
+		43107EC71CFF2040000541CB /* SpeedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpeedViewController.m; sourceTree = "<group>"; };
+		43107EC91CFF2067000541CB /* TimeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimeViewController.h; sourceTree = "<group>"; };
+		43107ECA1CFF2067000541CB /* TimeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimeViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		43107EA61CFF1910000541CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		43107EA01CFF1910000541CB = {
+			isa = PBXGroup;
+			children = (
+				43107EAB1CFF1910000541CB /* ConversionBuddy */,
+				43107EAA1CFF1910000541CB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		43107EAA1CFF1910000541CB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				43107EA91CFF1910000541CB /* ConversionBuddy.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		43107EAB1CFF1910000541CB /* ConversionBuddy */ = {
+			isa = PBXGroup;
+			children = (
+				43107EAF1CFF1910000541CB /* AppDelegate.h */,
+				43107EB01CFF1910000541CB /* AppDelegate.m */,
+				43107EB21CFF1910000541CB /* TemperatureViewController.h */,
+				43107EB31CFF1910000541CB /* TemperatureViewController.m */,
+				43107EB51CFF1910000541CB /* CurrencyViewController.h */,
+				43107EB61CFF1910000541CB /* CurrencyViewController.m */,
+				43107EB81CFF1910000541CB /* Main.storyboard */,
+				43107EC91CFF2067000541CB /* TimeViewController.h */,
+				43107ECA1CFF2067000541CB /* TimeViewController.m */,
+				43107EC61CFF2040000541CB /* SpeedViewController.h */,
+				43107EC71CFF2040000541CB /* SpeedViewController.m */,
+				43107EBB1CFF1910000541CB /* Assets.xcassets */,
+				43107EBD1CFF1910000541CB /* LaunchScreen.storyboard */,
+				43107EC01CFF1910000541CB /* Info.plist */,
+				43107EAC1CFF1910000541CB /* Supporting Files */,
+			);
+			path = ConversionBuddy;
+			sourceTree = "<group>";
+		};
+		43107EAC1CFF1910000541CB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				43107EAD1CFF1910000541CB /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		43107EA81CFF1910000541CB /* ConversionBuddy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 43107EC31CFF1910000541CB /* Build configuration list for PBXNativeTarget "ConversionBuddy" */;
+			buildPhases = (
+				43107EA51CFF1910000541CB /* Sources */,
+				43107EA61CFF1910000541CB /* Frameworks */,
+				43107EA71CFF1910000541CB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ConversionBuddy;
+			productName = ConversionBuddy;
+			productReference = 43107EA91CFF1910000541CB /* ConversionBuddy.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		43107EA11CFF1910000541CB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = DetroitLabs;
+				TargetAttributes = {
+					43107EA81CFF1910000541CB = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 43107EA41CFF1910000541CB /* Build configuration list for PBXProject "ConversionBuddy" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 43107EA01CFF1910000541CB;
+			productRefGroup = 43107EAA1CFF1910000541CB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				43107EA81CFF1910000541CB /* ConversionBuddy */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		43107EA71CFF1910000541CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43107EBF1CFF1910000541CB /* LaunchScreen.storyboard in Resources */,
+				43107EBC1CFF1910000541CB /* Assets.xcassets in Resources */,
+				43107EBA1CFF1910000541CB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		43107EA51CFF1910000541CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43107ECB1CFF2067000541CB /* TimeViewController.m in Sources */,
+				43107EB71CFF1910000541CB /* CurrencyViewController.m in Sources */,
+				43107EC81CFF2040000541CB /* SpeedViewController.m in Sources */,
+				43107EB11CFF1910000541CB /* AppDelegate.m in Sources */,
+				43107EB41CFF1910000541CB /* TemperatureViewController.m in Sources */,
+				43107EAE1CFF1910000541CB /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		43107EB81CFF1910000541CB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				43107EB91CFF1910000541CB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		43107EBD1CFF1910000541CB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				43107EBE1CFF1910000541CB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		43107EC11CFF1910000541CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		43107EC21CFF1910000541CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		43107EC41CFF1910000541CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ConversionBuddy/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.detroitlabs.ConversionBuddy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		43107EC51CFF1910000541CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ConversionBuddy/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.detroitlabs.ConversionBuddy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		43107EA41CFF1910000541CB /* Build configuration list for PBXProject "ConversionBuddy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43107EC11CFF1910000541CB /* Debug */,
+				43107EC21CFF1910000541CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		43107EC31CFF1910000541CB /* Build configuration list for PBXNativeTarget "ConversionBuddy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43107EC41CFF1910000541CB /* Debug */,
+				43107EC51CFF1910000541CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 43107EA11CFF1910000541CB /* Project object */;
+}
