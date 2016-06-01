@@ -11,7 +11,9 @@
 @interface TimeViewController : UIViewController
 @property (weak, nonatomic) IBOutlet UILabel *timeOutputLabel;
 @property (weak, nonatomic) IBOutlet UITextField *timeInputField;
+@property (weak, nonatomic) IBOutlet UIDatePicker *timePicker;
 @property (weak, nonatomic) IBOutlet UIPickerView *timePickerView;
+@property (weak, nonatomic) IBOutlet UILabel *outputCommentLabel;
 - (IBAction)timeConvertButton:(id)sender;
 
 @end

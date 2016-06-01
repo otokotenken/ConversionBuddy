@@ -12,6 +12,15 @@
 
 @end
 
+/*
+ 
+ @property (weak, nonatomic) IBOutlet UILabel *speedOutputLabel;
+ @property (weak, nonatomic) IBOutlet UITextField *speedInputField;
+ @property (weak, nonatomic) IBOutlet UISegmentedControl *unitSegmentedControl;
+ - (IBAction)speedConvertButton:(id)sender;
+ 
+ */
+
 @implementation SpeedViewController
 
 - (void)viewDidLoad {
@@ -24,16 +33,21 @@
     // Dispose of any resources that can be recreated.
 }
 
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
-}
-*/
-
 - (IBAction)speedConvertButton:(id)sender {
+	NSString * enteredUnitType = [_unitSegmentedControl titleForSegmentAtIndex:_unitSegmentedControl.selectedSegmentIndex];
+	
+	if([enteredUnitType isEqualToString:@"KPH"]) {
+		//convert from MPH to KPH
+		
+		_speedOutputLabel.text = [NSString stringWithFormat:@"%.2f", ([_speedInputField.text floatValue] * 1.60934)];
+		_outputCommentLabel.text = @"Your speed in KPH is:";
+	}
+	else {
+		//convert from KPH to MPH
+		
+		_speedOutputLabel.text = [NSString stringWithFormat:@"%.2f", ([_speedInputField.text floatValue] / 1.60934)];
+		_outputCommentLabel.text = @"Your speed in MPH is:";
+	}
 }
+
 @end
