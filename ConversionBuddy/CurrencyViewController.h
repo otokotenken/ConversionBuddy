@@ -10,6 +10,11 @@
 
 @interface CurrencyViewController : UIViewController
 
+@property (weak, nonatomic) IBOutlet UILabel *currencyOutputLabel;
+@property (weak, nonatomic) IBOutlet UITextField *currencyInputField;
+@property (weak, nonatomic) IBOutlet UIPickerView *currencyPickerView;
+
+- (IBAction)currencyConvertButton:(id)sender;
 
 @end
 

@@ -9,5 +9,9 @@
 #import <UIKit/UIKit.h>
 
 @interface TimeViewController : UIViewController
+@property (weak, nonatomic) IBOutlet UILabel *timeOutputLabel;
+@property (weak, nonatomic) IBOutlet UITextField *timeInputField;
+@property (weak, nonatomic) IBOutlet UIPickerView *timePickerView;
+- (IBAction)timeConvertButton:(id)sender;
 
 @end

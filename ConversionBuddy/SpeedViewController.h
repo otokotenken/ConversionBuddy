@@ -9,5 +9,9 @@
 #import <UIKit/UIKit.h>
 
 @interface SpeedViewController : UIViewController
+@property (weak, nonatomic) IBOutlet UILabel *speedOutputLabel;
+@property (weak, nonatomic) IBOutlet UITextField *speedInputField;
+@property (weak, nonatomic) IBOutlet UISegmentedControl *unitSegmentedControl;
+- (IBAction)speedConvertButton:(id)sender;
 
 @end

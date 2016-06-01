@@ -10,6 +10,11 @@
 
 @interface TemperatureViewController : UIViewController
 
+@property (weak, nonatomic) IBOutlet UILabel *temperatureOutputLabel;
+@property (weak, nonatomic) IBOutlet UITextField *temperatureInputField;
+@property (weak, nonatomic) IBOutlet UISegmentedControl *unitsSegmentControl;
+
+- (IBAction)temperatureConvertButton:(id)sender;
 
 @end
 

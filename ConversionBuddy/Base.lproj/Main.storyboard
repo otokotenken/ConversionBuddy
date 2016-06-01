@@ -44,6 +44,9 @@
                             <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="b0B-ku-eWP">
                                 <rect key="frame" x="275" y="357" width="46" height="30"/>
                                 <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="temperatureConvertButton:" destination="9pv-A4-QxB" eventType="touchUpInside" id="xRN-2N-N0p"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="J6v-IS-dam">
                                 <rect key="frame" x="279" y="411" width="42" height="21"/>
@@ -70,6 +73,11 @@
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Temperature" image="first" id="acW-dT-cKf"/>
+                    <connections>
+                        <outlet property="temperatureInputField" destination="gr2-eU-Zqd" id="N9V-lS-LAV"/>
+                        <outlet property="temperatureOutputLabel" destination="7Wh-6D-yIB" id="Nfc-dZ-Hto"/>
+                        <outlet property="unitsSegmentControl" destination="6gU-y9-g1V" id="6B3-CX-UxP"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="W5J-7L-Pyd" sceneMemberID="firstResponder"/>
             </objects>
@@ -114,6 +122,9 @@
                             <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7Oh-bm-w1e">
                                 <rect key="frame" x="277" y="360" width="46" height="30"/>
                                 <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="speedConvertButton:" destination="oOG-n4-68W" eventType="touchUpInside" id="oQx-Oq-d7J"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sML-6J-C90">
                                 <rect key="frame" x="281" y="414" width="42" height="21"/>
@@ -140,6 +151,11 @@
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Speed" image="third" id="Vod-Pr-GyP"/>
+                    <connections>
+                        <outlet property="speedInputField" destination="NDW-Hy-4k1" id="h1X-Dl-gAD"/>
+                        <outlet property="speedOutputLabel" destination="Rgb-Q8-Z8Z" id="RGn-ZE-PVs"/>
+                        <outlet property="unitSegmentedControl" destination="Iui-32-etC" id="Loc-7g-y8D"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dZ9-Z8-Gad" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -177,6 +193,9 @@
                             <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Wdm-k8-QkE">
                                 <rect key="frame" x="271" y="354" width="46" height="30"/>
                                 <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="currencyConvertButton:" destination="8rJ-Kc-sve" eventType="touchUpInside" id="Voh-U1-mMQ"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Mrr-4O-2pS">
                                 <rect key="frame" x="275" y="408" width="42" height="21"/>
@@ -206,6 +225,11 @@
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Currency" image="second" id="cPa-gy-q4n"/>
+                    <connections>
+                        <outlet property="currencyInputField" destination="WUe-CZ-SF4" id="snm-Vg-ElF"/>
+                        <outlet property="currencyOutputLabel" destination="eLu-DW-wPr" id="jBK-co-7Nd"/>
+                        <outlet property="currencyPickerView" destination="qXL-uX-9yz" id="l0X-i7-gBj"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4Nw-L8-lE0" sceneMemberID="firstResponder"/>
             </objects>
@@ -243,6 +267,9 @@
                             <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cgZ-IC-aNs">
                                 <rect key="frame" x="269" y="381" width="46" height="30"/>
                                 <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="timeConvertButton:" destination="yTS-aY-qhR" eventType="touchUpInside" id="aXi-sx-0R0"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YF7-no-xjr">
                                 <rect key="frame" x="273" y="435" width="42" height="21"/>
@@ -272,6 +299,11 @@
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Time Zone" image="fourth" id="yNc-kY-NmY"/>
+                    <connections>
+                        <outlet property="timeInputField" destination="vb4-Uf-n6c" id="2UG-81-f3X"/>
+                        <outlet property="timeOutputLabel" destination="Vvs-c1-2Ue" id="3DL-FT-7JP"/>
+                        <outlet property="timePickerView" destination="CmE-fq-gmb" id="Shf-iU-e06"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="SVq-Lw-35K" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
