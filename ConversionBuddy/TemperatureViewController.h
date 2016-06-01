@@ -7,12 +7,14 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <CoreLocation/CoreLocation.h>
 
-@interface TemperatureViewController : UIViewController
+@interface TemperatureViewController : UIViewController<CLLocationManagerDelegate>
 
 @property (weak, nonatomic) IBOutlet UILabel *temperatureOutputLabel;
 @property (weak, nonatomic) IBOutlet UITextField *temperatureInputField;
 @property (weak, nonatomic) IBOutlet UISegmentedControl *unitsSegmentControl;
+@property(nonatomic, readonly) UIAlertControllerStyle preferredStyle;
 
 - (IBAction)temperatureConvertButton:(id)sender;
 
