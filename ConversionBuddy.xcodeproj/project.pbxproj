@@ -16,6 +16,7 @@
 		43107EBF1CFF1910000541CB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 43107EBD1CFF1910000541CB /* LaunchScreen.storyboard */; };
 		43107EC81CFF2040000541CB /* SpeedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 43107EC71CFF2040000541CB /* SpeedViewController.m */; };
 		43107ECB1CFF2067000541CB /* TimeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 43107ECA1CFF2067000541CB /* TimeViewController.m */; };
+		43107ECD1CFF5E38000541CB /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43107ECC1CFF5E38000541CB /* CoreLocation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +36,7 @@
 		43107EC71CFF2040000541CB /* SpeedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpeedViewController.m; sourceTree = "<group>"; };
 		43107EC91CFF2067000541CB /* TimeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimeViewController.h; sourceTree = "<group>"; };
 		43107ECA1CFF2067000541CB /* TimeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimeViewController.m; sourceTree = "<group>"; };
+		43107ECC1CFF5E38000541CB /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +44,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				43107ECD1CFF5E38000541CB /* CoreLocation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -51,6 +54,7 @@
 		43107EA01CFF1910000541CB = {
 			isa = PBXGroup;
 			children = (
+				43107ECC1CFF5E38000541CB /* CoreLocation.framework */,
 				43107EAB1CFF1910000541CB /* ConversionBuddy */,
 				43107EAA1CFF1910000541CB /* Products */,
 			);
